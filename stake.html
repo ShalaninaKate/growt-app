@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Stake</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--swap">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#swap-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav-icon--stake">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#stake-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--account">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#account-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--history">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--faq">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#faq-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <div class="page">
+      <header class="header">
+  <a href="#" class="header__logo"><img src="./img/logo-aside.svg" alt="logo"></a>
+  <div class="header__search">
+    <form action="#" class="search-form">
+      <button type="submit" class="search-form__btn">
+        <svg class="search-form__btn-icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input class="search-form__input" autocomplete="off" type="text" placeholder="Search Assets">
+    </form>
+  </div>
+  <div class="header__actions">
+    <button class="notification">
+      <svg class="notification__icon">
+        <use xlink:href="img/sprite.svg#notification"></use>
+      </svg>
+    </button>
+    <button class="user">
+      <img class="user__img" src="./img/ava.png" alt="ava">
+    </button>
+  </div>
+</header>
+
+      <main class="main staking">
+        <ul class="staking__plans">
+          <li class="staking__plan-item item-plan item-plan--btc ">
+            <h3 class="item-plan__title">BTC</h3>
+            <div class="item-plan__interest">
+              <p class="item-plan__interest-text">Staking interest year rate:
+                <span class="item-plan__interest-prc">15%</span>
+              </p>
+            </div>
+            <ul class="item-plan__descr">
+              <li class="item-plan__descr-text">Staking plan: Bull Year</li>
+              <li class="item-plan__descr-text">Staking duration: 1 year</li>
+              <li class="item-plan__descr-text">Minimum quantity: 0.5 BTC</li>
+            </ul>
+            <div class="item-plan__actions">
+              <button class="item-plan__button button">Stake Now</button>
+              <div class="item-plan__link">More Info</div>
+            </div>
+          </li>
+          <li class="staking__plan-item item-plan item-plan--eth ">
+            <h3 class="item-plan__title">ETH</h3>
+            <div class="item-plan__interest">
+              <p class="item-plan__interest-text">Staking interest year rate:
+                <span class="item-plan__interest-prc">15%</span>
+              </p>
+            </div>
+            <ul class="item-plan__descr">
+              <li class="item-plan__descr-text">Staking plan: Bull Year</li>
+              <li class="item-plan__descr-text">Staking duration: 1 year</li>
+              <li class="item-plan__descr-text">Minimum quantity: 0.5 BTC</li>
+            </ul>
+            <div class="item-plan__actions">
+              <button class="item-plan__button button button--blue">Stake Now</button>
+              <div class="item-plan__link">More Info</div>
+            </div>
+          </li>
+          <li class="staking__plan-item item-plan item-plan--usdt">
+            <h3 class="item-plan__title">USDT</h3>
+            <div class="item-plan__interest">
+              <p class="item-plan__interest-text">Staking interest year rate:
+                <span class="item-plan__interest-prc">15%</span>
+              </p>
+            </div>
+            <ul class="item-plan__descr">
+              <li class="item-plan__descr-text">Staking plan: Bull Year</li>
+              <li class="item-plan__descr-text">Staking duration: 1 year</li>
+              <li class="item-plan__descr-text">Minimum quantity: 0.5 BTC</li>
+            </ul>
+            <div class="item-plan__actions">
+              <button class="item-plan__button button">Stake Now</button>
+              <div class="item-plan__link">More Info</div>
+            </div>
+          </li>
+          <li class="staking__plan-item item-plan item-plan--tether item-plan--more">
+            <h3 class="item-plan__title">BTC</h3>
+            <div class="item-plan__interest">
+              <p class="item-plan__interest-text">Staking interest year rate:
+                <span class="item-plan__interest-prc">15%</span>
+              </p>
+            </div>
+            <ul class="item-plan__descr">
+              <li class="item-plan__descr-text">Staking plan: Bull Year</li>
+              <li class="item-plan__descr-text">Staking duration: 1 year</li>
+              <li class="item-plan__descr-text">Minimum quantity: 0.5 BTC</li>
+            </ul>
+            <div class="item-plan__actions">
+              <button class="item-plan__button button">Stake Now</button>
+              <div class="item-plan__link">More Info</div>
+            </div>
+            <div class="item-plan__more ">
+              <a href="#" class="item-plan__more-btn button button--transparent">More Plans</a>
+            </div>
+          </li>
+        </ul>
+        <section class="staking__table staking-table table card-white ">
+          <div class="staking-table__caption table__caption">
+            <h2 class="staking-table__title title">My Staking</h2>
+            <button class="staking-table__button table__caption-btn button button--blue">
+            </button>
+          </div>
+          <div class="staking-table__content table__content">
+            <div class="table__row">
+              <ul class="staking-table__items table__items table__items--title">
+                <li class="table__item">Cryptocurrency</li>
+                <li class="table__item">In Stake</li>
+                <li class="table__item">Profit</li>
+                <li class="table__item">Days left</li>
+              </ul>
+            </div>
+            <div data-simplebar class="staking-table__body table__body simplebar">
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/bitcoin.svg" alt="bitcoin">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Bitcoin</p>
+                        <p class="cryptocurrency__name-short">(BTC)</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">0.5</span>
+                    <span class="table__item-stake-usd">$34000</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$15640</span>
+                    <span class="table__item-stake-usd">0.115 BTC</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/tether.svg" alt="tether">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Tether</p>
+                        <p class="cryptocurrency__name-short">(USDT)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">500</span>
+                    <span class="table__item-stake-usd">$502</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$45</span>
+                    <span class="table__item-stake-usd">45.115 USDT</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/ethereum.svg" alt="ethereum">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Ethereum</p>
+                        <p class="cryptocurrency__name-short">(ETH)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">0.5</span>
+                    <span class="table__item-stake-usd">$34000</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$15640</span>
+                    <span class="table__item-stake-usd">0.115 BTC</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/bitcoin.svg" alt="bitcoin">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Bitcoin</p>
+                        <p class="cryptocurrency__name-short">(BTC)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">0.5</span>
+                    <span class="table__item-stake-usd">$34000</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$15640</span>
+                    <span class="table__item-stake-usd">0.115 BTC</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/tether.svg" alt="tether">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Tether</p>
+                        <p class="cryptocurrency__name-short">(USDT)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">500</span>
+                    <span class="table__item-stake-usd">$502</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$45</span>
+                    <span class="table__item-stake-usd">45.115 USDT</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/ethereum.svg" alt="ethereum">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Ethereum</p>
+                        <p class="cryptocurrency__name-short">(ETH)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">0.5</span>
+                    <span class="table__item-stake-usd">$34000</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$15640</span>
+                    <span class="table__item-stake-usd">0.115 BTC</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/bitcoin.svg" alt="bitcoin">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Bitcoin</p>
+                        <p class="cryptocurrency__name-short">(BTC)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">0.5</span>
+                    <span class="table__item-stake-usd">$34000</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$15640</span>
+                    <span class="table__item-stake-usd">0.115 BTC</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="table__row">
+                <ul class="staking-table__items table__items">
+                  <li class="table__item">
+                    <div class="cryptocurrency">
+                      <div class="cryptocurrency__image">
+                        <img class="cryptocurrency__icon" src="./img/cryptocurrency/tether.svg" alt="tether">
+                      </div>
+                      <div class="cryptocurrency__text">
+                        <p class="cryptocurrency__name">Tether</p>
+                        <p class="cryptocurrency__name-short">(USDT)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">500</span>
+                    <span class="table__item-stake-usd">$502</span>
+                  </li>
+                  <li class="table__item flex-col">
+                    <span class="table__item-stake">$45</span>
+                    <span class="table__item-stake-usd">45.115 USDT</span>
+                  </li>
+                  <li class="table__item">
+                    <div class="table__item-days-left">
+                      <p class="table__item-days">20</p>
+                      <button class="button button button--transparent table__item-unstake">Unstake</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

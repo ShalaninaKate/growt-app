@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Stake 3</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--swap">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#swap-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav-icon--stake">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#stake-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--account">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#account-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--history">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--faq">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#faq-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <div class="page">
+      <header class="header">
+  <a href="#" class="header__logo"><img src="./img/logo-aside.svg" alt="logo"></a>
+  <div class="header__search">
+    <form action="#" class="search-form">
+      <button type="submit" class="search-form__btn">
+        <svg class="search-form__btn-icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input class="search-form__input" autocomplete="off" type="text" placeholder="Search Assets">
+    </form>
+  </div>
+  <div class="header__actions">
+    <button class="notification">
+      <svg class="notification__icon">
+        <use xlink:href="img/sprite.svg#notification"></use>
+      </svg>
+    </button>
+    <button class="user">
+      <img class="user__img" src="./img/ava.png" alt="ava">
+    </button>
+  </div>
+</header>
+
+      <main class="main transaction">
+        <form action="#" class="transaction__form form">
+          <div class="transaction__title">Staking plan: <br>
+            BTC Bull Year</div>
+          <div class="transaction__interest staking-interest staking-interest--plan">
+            <p class="staking-interest__rate staking-interest__rate--plan">Staking interest rate: 15%</p>
+            <p class="staking-interest__conditions">Special conditions: <span>Only for new users</span></p>
+          </div>
+          <div class="transaction__plan staking-plan">
+            <h3 class="staking-plan__title">Minimum quantity: 0.5 BTC</h3>
+            <div class="staking-plan__details">
+              <h4 class="staking-plan__details-title">Plan duration:</h4>
+              <div class="staking-plan__details-item">
+                <p class="staking-plan__details-text">Start: 06.08. 2024 12.00</p>
+                <p class="staking-plan__details-text">End: 06.08. 2025 12.00</p>
+              </div>
+            </div>
+            <div class="staking-plan__details">
+              <h4 class="staking-plan__details-title">Staking duration: </h4>
+              <p class="staking-plan__details-text">1 year — 5 years</p>
+            </div>
+          </div>
+          <div class="transaction__actions">
+            <button class="transaction__button button button--transparent js-modal-close">Cancel</button>
+            <button class="transaction__button button">Stake Now</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

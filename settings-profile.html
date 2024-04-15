@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Settings Profile</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--swap">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#swap-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav-icon--stake">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#stake-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--account">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#account-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--history">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--faq">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#faq-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <div class="page">
+      <header class="header">
+  <a href="#" class="header__logo"><img src="./img/logo-aside.svg" alt="logo"></a>
+  <div class="header__search">
+    <form action="#" class="search-form">
+      <button type="submit" class="search-form__btn">
+        <svg class="search-form__btn-icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input class="search-form__input" autocomplete="off" type="text" placeholder="Search Assets">
+    </form>
+  </div>
+  <div class="header__actions">
+    <button class="notification">
+      <svg class="notification__icon">
+        <use xlink:href="img/sprite.svg#notification"></use>
+      </svg>
+    </button>
+    <button class="user">
+      <img class="user__img" src="./img/ava.png" alt="ava">
+    </button>
+  </div>
+</header>
+
+      <main class="main settings">
+        <ul class="settings__tabs">
+          <a href="#" class="settings__tab button button--transparent active">Profile</a>
+          <a href="#" class="settings__tab button button--transparent">Secutiry</a>
+          <a href="#" class="settings__tab button button--transparent">Address Book</a>
+        </ul>
+        <form class="settings__form profile">
+          <h2 class="profile__title title">Profile</h2>
+          <div class="profile__body">
+            <div class="profile__avatar avatar">
+              <img src="./img/avatar.png" class="avatar__image" alt="ava"></img>
+              <div class="avatar__info">
+                <h3 class="avatar__title title-settings">Avatar</h3>
+                <p class="avatar__text text-settings">The file must be JPEG, JPG, PNG, WEBP, PDF, TIFF. The file
+                  weight
+                  must not exceed 10 mb</p>
+                <a class="avatar__update">Upload your avatar</a>
+              </div>
+            </div>
+            <div class="profile__username username">
+              <h3 class="username__title title-settings">Username</h3>
+              <p class="username__text text-settings">Now you have random username <span
+                  class="username__name">«0×897sdg4sg4s6d7sgd»</span> <br>
+                You can change username with field below.</p>
+              <label class="username__label">Enter New Username</label>
+              <input type="text" value="John Jonson" class="username__input">
+            </div>
+            <div class="profile__email email-profile">
+              <h3 class="email-profile__title title-settings">E-mail</h3>
+              <label for="" class="email-profile__label">Your Current E-mail</label>
+              <input type="text" value="john_johnson@gmail.com" class="email-profile__input">
+            </div>
+          </div>
+          <button class="profile__confirm button-settings button">Confirm</button>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

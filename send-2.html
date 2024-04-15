@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Send 2</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--swap">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#swap-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav-icon--stake">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#stake-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--account">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#account-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--history">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--faq">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#faq-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <div class="page">
+      <header class="header">
+  <a href="#" class="header__logo"><img src="./img/logo-aside.svg" alt="logo"></a>
+  <div class="header__search">
+    <form action="#" class="search-form">
+      <button type="submit" class="search-form__btn">
+        <svg class="search-form__btn-icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input class="search-form__input" autocomplete="off" type="text" placeholder="Search Assets">
+    </form>
+  </div>
+  <div class="header__actions">
+    <button class="notification">
+      <svg class="notification__icon">
+        <use xlink:href="img/sprite.svg#notification"></use>
+      </svg>
+    </button>
+    <button class="user">
+      <img class="user__img" src="./img/ava.png" alt="ava">
+    </button>
+  </div>
+</header>
+
+      <main class="main transaction">
+        <form action="#" class="transaction__form form">
+          <div class="transaction__title">Open your Google Authenticator</div>
+
+          <div class="transaction__authentification authentification">
+            <label class="transaction__authentification-label authentification__label">Code</label>
+            <div class="transaction__authentification-inputs authentification__inputs">
+              <input type="text" name="" class="authentification__input">
+              <input type="text" name="" class="authentification__input">
+              <input type="text" name="" class="authentification__input">
+              <input type="text" name="" class="authentification__input">
+              <input type="text" name="" class="authentification__input">
+              <input type="text" name="" class="authentification__input">
+            </div>
+          </div>
+          <div class="transaction__actions">
+            <button class="transaction__button button button--transparent" data-path="send"
+              data-animation="fadeInUp">Back</button>
+            <button class="transaction__button button" data-path="report-send"
+              data-animation="fadeInUp">Confirm</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

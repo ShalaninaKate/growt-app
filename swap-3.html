@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Swap 3</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--swap">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#swap-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav-icon--stake">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#stake-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--account">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#account-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--history">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item nav__item--faq">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#faq-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <div class="page">
+      <header class="header">
+  <a href="#" class="header__logo"><img src="./img/logo-aside.svg" alt="logo"></a>
+  <div class="header__search">
+    <form action="#" class="search-form">
+      <button type="submit" class="search-form__btn">
+        <svg class="search-form__btn-icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input class="search-form__input" autocomplete="off" type="text" placeholder="Search Assets">
+    </form>
+  </div>
+  <div class="header__actions">
+    <button class="notification">
+      <svg class="notification__icon">
+        <use xlink:href="img/sprite.svg#notification"></use>
+      </svg>
+    </button>
+    <button class="user">
+      <img class="user__img" src="./img/ava.png" alt="ava">
+    </button>
+  </div>
+</header>
+
+      <main class="main transaction">
+        <div class="transaction__form">
+          <div class="transaction__title">Swap transaction</div>
+          <div class="transaction__date">Date: 06.08. 2024 12.00</div>
+          <ul class="transaction__amounts">
+            <li class="transaction__amount transaction__amount--blue">
+              <p class="transaction__amount-crypto">-0.5 BTC</p>
+              <p class="transaction__amount-usd">$ 33 551</p>
+            </li>
+            <li class="transaction__amount transaction__amount--green">
+              <p class="transaction__amount-crypto">+9,63 ETH</p>
+              <p class="transaction__amount-usd">$ 33 607</p>
+            </li>
+          </ul>
+          <div class="transaction__report transaction__report--swap report report--swap">
+            <ul class="report__items">
+              <li class="report__item">
+                <h4 class="report__item-title">Status:</h4>
+                <p class="report__item-status report__item-status--completed">Completed</p>
+              </li>
+              <li class="report__item">
+                <h4 class="report__item-title">Exchange rate:</h4>
+                <p class="report__item-text">1,00 Bitcoin = 19,21 Ethereum</p>
+              </li>
+              <li class="report__item">
+                <h4 class="report__item-title">Sender adress (btc):</h4>
+                <p class="report__item-text">0×029njg847n874n48902900</p>
+              </li>
+              <li class="report__item">
+                <h4 class="report__item-title">Recipient adress:</h4>
+                <p class="report__item-text">0×029njg847n874n48902900</p>
+              </li>
+              <li class="report__item">
+                <h4 class="report__item-title">Network fee:</h4>
+                <p class="report__item-text">0 (offchain)</p>
+              </li>
+            </ul>
+          </div>
+          <button class="transaction__button button">My Account</button>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

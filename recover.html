@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Recover</title>
+  <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="register">
+      <a href="#" class="register__link-back">
+        <svg class="register__link-arrow">
+          <use xlink:href="img/sprite.svg#arrow-left"></use>
+        </svg>
+        Back
+      </a>
+      <h1 class="register__title">Finish Recovery</h1>
+      <p class="register__text">A ipsum sagittis ultrices tristique dictum. Pharetra orci ac vivamus eleifend massa
+        adipiscing.</p>
+      <form class="register__recovery recovery form">
+        <div class="recovery__item form__item">
+          <label for="formEmail" class="recovery__label form__label">New Password</label>
+          <div class="recovery__input input">
+            <svg class="input__icon input__icon--password">
+              <use xlink:href="img/sprite.svg#password"></use>
+            </svg>
+            <input id="formPassword" type="password" name="" value="john_johnson@gmail.com" class="input__control">
+            <button class="input__icon-btn">
+              <svg class="input__icon input__icon--eye">
+                <use xlink:href="img/sprite.svg#eye"></use>
+              </svg>
+              <svg class="input__icon input__icon--eye-off">
+                <use xlink:href="img/sprite.svg#eye-off"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="recovery__item form__item">
+          <label for="formEmail" class="recovery__label form__label">Repeat New Password</label>
+          <div class="recovery__input input">
+            <svg class="input__icon input__icon--password">
+              <use xlink:href="img/sprite.svg#password"></use>
+            </svg>
+            <input id="formPassword" type="password" name="" value="john_johnson@gmail.com" class="input__control">
+            <button class="input__icon-btn">
+              <svg class="input__icon input__icon--eye">
+                <use xlink:href="img/sprite.svg#eye"></use>
+              </svg>
+              <svg class="input__icon input__icon--eye-off">
+                <use xlink:href="img/sprite.svg#eye-off"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <button class="register__button button">Change</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
